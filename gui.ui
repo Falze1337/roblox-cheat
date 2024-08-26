@@ -1,0 +1,86 @@
+-- gui.ui
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Toggle = Instance.new("Toggle")
+local Toggle_2 = Instance.new("Toggle")
+local Toggle_3 = Instance.new("Toggle")
+local Toggle_4 = Instance.new("Toggle")
+local Toggle_5 = Instance.new("Toggle")
+local Toggle_6 = Instance.new("Toggle")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.new(0.148863, 0.148863, 0.148863)
+Frame.Position = UDim2.new(0.333000007, 0, 0.333000007, 0)
+Frame.Size = UDim2.new(0, 300, 0, 600)
+
+UICorner.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundTransparency = 1
+TextLabel.Size = UDim2.new(1, 0, 0.100000001, 0)
+TextLabel.Text = "Roblox Cheat"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 24
+TextLabel.TextXAlignment = Enum.TextXAlignment.Center
+
+Toggle.Parent = Frame
+Toggle.BackgroundColor3 = Color3.new(0.252941, 0.252941, 0.252941)
+Toggle.Position = UDim2.new(0.0400000006, 0, 0.25, 0)
+Toggle.Size = UDim2.new(0, 280, 0, 50)
+Toggle.Text = "Speed"
+Toggle.TextColor3 = Color3.new(1, 1, 1)
+Toggle.TextSize = 24
+Toggle.Name = "toggle_speed"
+
+Toggle_2.Parent = Frame
+Toggle_2.BackgroundColor3 = Color3.new(0.252941, 0.252941, 0.252941)
+Toggle_2.Position = UDim2.new(0.0400000006, 0, 0.35, 0)
+Toggle_2.Size = UDim2.new(0, 280, 0, 50)
+Toggle_2.Text = "Fly"
+Toggle_2.TextColor3 = Color3.new(1, 1, 1)
+Toggle_2.TextSize = 24
+Toggle_2.Name = "toggle_fly"
+
+Toggle_3.Parent = Frame
+Toggle_3.BackgroundColor3 = Color3.new(0.252941, 0.252941, 0.252941)
+Toggle_3.Position = UDim2.new(0.0400000006, 0, 0.45, 0)
+Toggle_3.Size = UDim2.new(0, 280, 0, 50)
+Toggle_3.Text = "ESP"
+Toggle_3.TextColor3 = Color3.new(1, 1, 1)
+Toggle_3.TextSize = 24
+Toggle_3.Name = "toggle_esp"
+
+Toggle_4.Parent = Frame
+Toggle_4.BackgroundColor3 = Color3.new(0.252941, 0.252941, 0.252941)
+Toggle_4.Position = UDim2.new(0.0400000006, 0, 0.55, 0)
+Toggle_4.Size = UDim2.new(0, 280, 0, 50)
+Toggle_4.Text = "Aimbot"
+Toggle_4.TextColor3 = Color3.new(1, 1, 1)
+Toggle_4.TextSize = 24
+Toggle_4.Name = "toggle_aimbot"
+
+Toggle_5.Parent = Frame
+Toggle_5.BackgroundColor3 = Color3.new(0.252941, 0.252941, 0.252941)
+Toggle_5.Position = UDim2.new(0.0400000006, 0, 0.65, 0)
+Toggle_5.Size = UDim2.new(0, 280, 0, 50)
+Toggle_5.Text = "Visuals"
+Toggle_5.TextColor3 = Color3.new(1, 1, 1)
+Toggle_5.TextSize = 24
+Toggle_5.Name = "toggle_visuals"
+
+Toggle_6.Parent = Frame
+Toggle_6.BackgroundColor3 = Color3.new(0.252941, 0.252941, 0.252941)
+Toggle_6.Position = UDim2.new(0.0400000006, 0, 0.75, 0)
+Toggle_6.Size = UDim2.new(0, 280, 0, 50)
+Toggle_6.Text = "Misc"
+Toggle_6.TextColor3 = Color3.new(1, 1, 1)
+Toggle_6.TextSize = 24
+Toggle_6.Name = "toggle_misc"
+
+return ScreenGui
